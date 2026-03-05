@@ -9,6 +9,7 @@ urlpatterns = [
     path('patients/', include('patientsapp.urls')),
     path('users/', include('usersapp.urls')),
     path('upload/', include('uploadapp.urls')),
+    path('project/', include('projectapp.urls')),
 ]
 
 if settings.DEBUG:

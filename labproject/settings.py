@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     'patientsapp',
     'usersapp',
     'uploadapp',
+    'projectapp',
+    
     
 ]
 
@@ -120,6 +122,10 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/6.0/howto/static-files/
 
 STATIC_URL = 'static/'
+import os
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 import os
 
 MEDIA_URL = '/media/'
