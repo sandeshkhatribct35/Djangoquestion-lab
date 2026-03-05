@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'usersapp',
     'uploadapp',
     'projectapp',
+    'advancedformapp',
     
     
 ]

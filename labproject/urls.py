@@ -10,6 +10,7 @@ urlpatterns = [
     path('users/', include('usersapp.urls')),
     path('upload/', include('uploadapp.urls')),
     path('project/', include('projectapp.urls')),
+    path('appointment/', include('advancedformapp.urls')),
 ]
 
 if settings.DEBUG:
